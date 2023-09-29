@@ -1,0 +1,118 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: #BE3455;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main section h2 {
+  font-size: 24px;
+  color: #BE3455;
+}
+
+main section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+main section ul {
+  font-size: 16px;
+}
+
+main section ul li {
+  margin-bottom: 10px;
+}
+
+main .images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+main .images img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+}
+
+footer p {
+  font-size: 14px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+ nav ul li {
+
+     display:block;
+
+     margin-bottom :10px;
+
+ }
+
+}
